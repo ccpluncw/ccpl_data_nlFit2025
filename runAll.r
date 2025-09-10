@@ -1,0 +1,10 @@
+mainDir.1 <- getwd()
+setwd('Cohen')
+	source("nlFitCO1.r")
+setwd("../Thompson2")
+	source("nlFitT03.r")
+	source("nlFitT04.r")
+setwd("../T&O data")
+	source("nlFitT01.r")
+setwd(mainDir.1)
+	

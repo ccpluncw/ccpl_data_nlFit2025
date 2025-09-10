@@ -1,0 +1,17 @@
+source("nlFitCO1.r")
+visibleReferencePoints
+statList
+outputNLfitStats(df.tmp, statList, dataTargetCol = "target", dataEstimateCol = "estimate", pars.n = pars.n, loops = 1000, sinkFilename = paste("..", sinkFileName, sep = "/"), appendSinkFile = TRUE, plotFileName = paste(cnd, sn,"Plot.pdf", sep="_"), xlim = xLim, ylim = yLim)
+ifelse(is.null(statList$visibleReferencePoints), "NA", statList$visibleReferencePoints)
+statList$visibleReferencePoints
+ifelse(is.null(statList$visibleReferencePoints), "NA", statList$visibleReferencePoints[])
+ifelse(is.null(statList$visibleReferencePoints), "NA", statList$visibleReferencePoints[2])
+ifelse(is.null(statList$visibleReferencePoints), "NA", statList$visibleReferencePoints)
+ifelse(is.null(statList$visibleReferencePoints), c("NA", "NA)", statList$visibleReferencePoints)
+""
+ifelse(is.null(statList$visibleReferencePoints), c("NA", "NA"), statList$visibleReferencePoints)
+unloadNamespace("nlFit")#
+ch.updateRpackage (packageName = "nlFit")
+outputNLfitStats(df.tmp, statList, dataTargetCol = "target", dataEstimateCol = "estimate", pars.n = pars.n, loops = 1000, sinkFilename = paste("..", sinkFileName, sep = "/"), appendSinkFile = TRUE, plotFileName = paste(cnd, sn,"Plot.pdf", sep="_"), xlim = xLim, ylim = yLim)
+source("nlFitCO1.r")
+source("nlFitCO1.r")
